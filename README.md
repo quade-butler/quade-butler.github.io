@@ -1,4 +1,4 @@
-# Quade Butler Personal Website
+# My Personal Website
 
 This repository contains the source for my personal GitHub Pages website.
 
