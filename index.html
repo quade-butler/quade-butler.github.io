@@ -2,48 +2,405 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Nonlinear Filtering Using Double Exponential Quadrature</title>
-
-    <!-- <meta name="color-scheme" content="dark light" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Quade Butler is an applied scientist focused on state estimation, robotics, data science, signal processing, and dynamic engineering systems."
+    />
+    <title>Quade Butler | Applied Scientist in State Estimation, Robotics, and Data Science</title>
 
     <link href="styles/style.css" rel="stylesheet" />
     <link href="styles/font.css" rel="stylesheet" />
-    
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="roboto-black">Nonlinear Filtering Using Double Exponential Quadrature</h1>
-    <section>
-      <h2 class="roboto-bold">Air Traffic Control Scenario</h2>
-      <img src="images/atc_example.svg" alt="Air traffic control scenario" width=500px/>
-      <p>The air traffic control (ATC) scenario is a textbook example of a manuevering aircraft identified by a range and bearing measurements recieved from a radar.</p>
-      <p>The flight path includes the following manuevers:</p>
-      <ul>
-        <li>Constant velocity motion in a westward direction</li>
-        <li>Constant turn manuever</li>
-        <li>Constant velocity motion southward</li>
-        <li>Constant turn manuever</li>
-        <li>Constant velocity motion westward</li>
-      </ul>
-      <p>See the Wikipedia page on <a href="https://en.wikipedia.org/wiki/Air_traffic_control">air traffic control</a> for more information.</p>
-    </section>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">Quade Butler</a>
+        <div class="nav-links">
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#research">Research</a>
+          <a href="#resume">Resume/CV</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-    <section>
-      <h2 class="roboto-bold">What is Filtering?</h2>
-      <p>Describe filtering...</p>
-    </section>
-    
-    <section>
-      <h2 class="roboto-bold">What is Quadrature?</h2>
-      <p>Describe quadrature or numerical integration.</p>
-    </section>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Applied Scientist | State Estimation, Robotics, Data Science</p>
+          <h1>Quade Butler</h1>
+          <p class="hero-summary">
+            I build estimation, signal processing, and machine learning methods
+            for dynamic systems, with applications in robotics, sensor fusion,
+            predictive maintenance, and industrial AI.
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="#resume">Resume/CV</a>
+            <a class="button secondary" href="#research">Research</a>
+            <a class="button secondary" href="#contact">Contact</a>
+          </div>
+        </div>
+        <figure class="headshot">
+          <img src="images/headshot.png" alt="Portrait of Quade Butler" />
+        </figure>
+      </section>
 
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Applied AI and estimation for systems that move, sense, and adapt.</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            I am a PhD researcher at McMaster University working at the
+            <a href="https://ice.gadsden.xyz/">ICE Lab</a> at the intersection
+            of Bayesian estimation, numerical methods, signal processing,
+            robotics, and data science. My research has produced nonlinear
+            filtering algorithms, MATLAB and Python analysis pipelines, and
+            validation workflows for sensor-driven dynamic systems.
+          </p>
+          <p>
+            My mechanical engineering background gives me a practical foundation
+            in physical systems, controls, manufacturing, and experimental
+            validation. I use this site to highlight work relevant to data
+            science, robotics, autonomy, industrial AI, predictive maintenance,
+            controls, signal processing, and scientific computing roles.
+          </p>
+        </div>
+      </section>
 
-    <button>Change user</button>
+      <section class="section" id="education">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Academic Background</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div>
+              <h3>PhD in Mechanical Engineering</h3>
+              <p class="meta">
+                McMaster University |
+                <a href="https://ice.gadsden.xyz/">ICE Lab</a> | 2021-2025
+              </p>
+            </div>
+            <p>
+              Research focused on nonlinear Bayesian state estimation, double
+              exponential cubature methods, robust filtering, sensor fusion, and
+              condition monitoring applications for dynamic physical systems.
+            </p>
+            <p>
+              Awarded the Ontario Graduate Scholarship for the 2023-2024
+              academic year.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <h3>Bachelor of Engineering in Mechanical Engineering</h3>
+              <p class="meta">University of Guelph | Minor in Mathematics</p>
+            </div>
+            <p>
+              Undergraduate foundation in mechanical systems, engineering
+              design, applied mathematics, controls, numerical methods, and
+              experimental analysis.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Applied research, data pipelines, controls, and system validation.</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Applied Science PhD Researcher</h3>
+            <p class="meta">
+              McMaster University |
+              <a href="https://ice.gadsden.xyz/">ICE Lab</a> | 2021-2025
+            </p>
+            <ul>
+              <li>
+                Developed nonlinear Gaussian filtering methods based on double
+                exponential cubature for Bayesian state estimation and sensor
+                fusion.
+              </li>
+              <li>
+                Built MATLAB simulation and benchmarking frameworks for UKF,
+                CKF, Gauss-Hermite, DECKF, and robust filtering comparisons.
+              </li>
+              <li>
+                Evaluated estimator performance using RMSE, NEES, NIS, Monte
+                Carlo simulation, and statistical consistency testing.
+              </li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Undergraduate Researcher</h3>
+            <p class="meta">University of Guelph | 2019-2020</p>
+            <ul>
+              <li>
+                Studied strain partitioning in advanced high strength automotive
+                steels using in-situ SEM tensile testing and digital image
+                correlation.
+              </li>
+              <li>
+                Prepared specimens, captured SEM image sequences, optimized DIC
+                parameters, and generated strain field visualizations.
+              </li>
+              <li>
+                Contributed to peer reviewed research on microstructural
+                deformation in multi-phase steels.
+              </li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Production Engineering Co-op Student</h3>
+            <p class="meta">FIO Automotive | January-August 2018</p>
+            <ul>
+              <li>
+                Supported hot stamping production lines and robotic welding
+                cells for automotive structural components.
+              </li>
+              <li>
+                Designed pneumatically actuated part stockers, CAD components,
+                safety placards, and spare parts reliability documentation.
+              </li>
+              <li>
+                Evaluated thermal imaging systems and supported hardness,
+                microstructure, and quality testing of hot stamped steel parts.
+              </li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Continuous Improvement Co-op Student</h3>
+            <p class="meta">GEEP Canada | May-August 2017</p>
+            <ul>
+              <li>
+                Developed SOPs, process documentation, and engineering reports
+                for electronics recycling operations.
+              </li>
+              <li>
+                Designed workplace improvements including tool board systems,
+                workstation cooling supports, process layouts, and material
+                staging analyses.
+              </li>
+              <li>
+                Supported maintenance, commissioning, quality testing, and
+                process improvement work across recycling process lines.
+              </li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Teaching Assistant</h3>
+            <p class="meta">McMaster University</p>
+            <ul>
+              <li>
+                Supported multiple semesters of differential equations, along
+                with courses in mechanical vibrations, engineering design,
+                engineering measurements, and mechatronics.
+              </li>
+              <li>
+                Assisted with tutorials, labs, grading, student support, and
+                technical communication across modeling, measurement, design,
+                and dynamic systems topics.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>Selected research interests and outputs.</h2>
+        </div>
+        <div class="research-layout">
+          <article class="feature">
+            <h3>Research Summary</h3>
+            <p>
+              My research develops estimation, identification, and monitoring
+              methods for nonlinear dynamic systems. Recent work includes a
+              Double Exponential Cubature Kalman Filter for nonlinear Gaussian
+              filtering, robust filtering under outliers and model uncertainty,
+              operating mode and fault detection for magnetorheological dampers, and
+              sensorless condition monitoring for machine tool feed drives.
+            </p>
+          </article>
+          <div class="publication-list" aria-label="Publications">
+            <article class="publication publication-group">
+              <p class="pub-type">Journal Articles</p>
+              <h3>Selected journal publications</h3>
+              <ul>
+                <li>
+                  Q. Butler, Y. Ziada, and S. A. Gadsden,
+                  "Gaussian Filtering Using a Spherical-Radial Double
+                  Exponential Cubature,"
+                  <em>IEEE Open Journal of Signal Processing</em>, 2025.
+                  <a href="https://doi.org/10.1109/OJSP.2025.3604381">DOI</a>
+                </li>
+                <li>
+                  A. Bardelcik and Q. Butler, "Strain Partitioning
+                  Characterization of Advanced High Strength Steels Using
+                  In-Situ Tensile Tests with Micro Digital Image Correlation -
+                  Methodology and Analysis,"
+                  <em>Materials Characterization</em>, 2024.
+                  <a href="https://doi.org/10.1016/j.matchar.2024.114451">DOI</a>
+                </li>
+                <li>
+                  B. S. Sicard, Q. Butler, Y. Ziada, E. Hughey, and S. A.
+                  Gadsden, "Preload Loss Detection in a Ball Screw System Using
+                  Interacting Models,"
+                  <em>IEEE Open Journal of Instrumentation and Measurement</em>,
+                  2023.
+                  <a href="https://doi.org/10.1109/OJIM.2023.3301905">DOI</a>
+                </li>
+                <li>
+                  Q. Butler, Y. Ziada, D. Stephenson, and S. A. Gadsden,
+                  "Condition Monitoring of Machine Tool Feed Drives: A Review,"
+                  <em>ASME Journal of Manufacturing Science and Engineering</em>,
+                  2022.
+                  <a href="https://doi.org/10.1115/1.4054516">DOI</a>
+                </li>
+              </ul>
+            </article>
+            <article class="publication publication-group">
+              <p class="pub-type">Conference Proceedings</p>
+              <h3>Selected conference publications</h3>
+              <ul>
+                <li>
+                  P. Kosierb, Y. Wu, Q. Butler, et al., "System Identification
+                  and State Estimation for Magnetorheological Dampers," SPIE
+                  Sensor Fusion and Target Recognition XXXIV, 2025.
+                </li>
+                <li>
+                  B. Sicard, Y. Wu, Q. Butler, and S. A. Gadsden, "Friction
+                  Modeling and Monitoring for Machine Tool Health Management,"
+                  IEEE Prognostics and Health Management, 2025.
+                </li>
+                <li>
+                  B. Sicard, Q. Butler, et al., "Generating Synthetic Data for
+                  Artificial Intelligence Solutions via a Digital Twin for
+                  Condition Monitoring in Machine Tools," SPIE Synthetic Data
+                  for AI &amp; ML II, 2024.
+                </li>
+                <li>
+                  Q. Butler, et al., "Nonlinear Filtering Using the Double
+                  Exponential Transformation," SPIE Sensor Fusion &amp; Target
+                  Recognition XXXIII, 2024.
+                </li>
+                <li>
+                  Q. Butler, et al., "Generalizing the Unscented Kalman Filter
+                  for State Estimation," SPIE Sensor Fusion &amp; Target Recognition
+                  XXXII, 2023.
+                </li>
+                <li>
+                  Q. Butler, B. Sicard, et al., "Rapid Parameter Estimation and
+                  Monitoring of CNC Feed Drive Systems," SPIE Sensor Fusion &amp;
+                  Target Recognition XXXI, 2022.
+                </li>
+              </ul>
+            </article>
+            <article class="publication featured-paper">
+              <p class="pub-type">Featured Paper</p>
+              <h3>Gaussian Filtering Using a Spherical-Radial Double Exponential Cubature</h3>
+              <p class="paper-meta">
+                Q. Butler, Y. Ziada, and S. A. Gadsden,
+                <em>IEEE Open Journal of Signal Processing</em>, 2025.
+              </p>
+              <p>
+                This paper introduces the Double Exponential Cubature Kalman
+                Filter (DECKF), a nonlinear Gaussian state estimator that uses a
+                spherical-radial double exponential cubature rule to approximate
+                Gaussian-weighted integrals in Bayesian filtering.
+              </p>
+              <ul>
+                <li>
+                  Derived the DE cubature construction, cubature points and
+                  weights, and full DECKF prediction/update recursion.
+                </li>
+                <li>
+                  Included a stochastic stability analysis under
+                  stated assumptions on the nonlinear system and noise model.
+                </li>
+                <li>
+                  Validated the method through numerical integration studies and
+                  nonlinear target tracking examples.
+                </li>
+                <li>
+                  Benchmarked estimator accuracy and consistency against UKF,
+                  CKF, and Gauss-Hermite filtering baselines.
+                </li>
+              </ul>
+              <div class="paper-actions" aria-label="Featured paper links">
+                <a class="button primary" href="https://doi.org/10.1109/OJSP.2025.3604381">
+                  Read Open Access Paper
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="section-heading">
+          <p class="eyebrow">Resume/CV</p>
+          <h2>Downloadable materials.</h2>
+        </div>
+        <div class="document-links">
+          <a class="document-card" href="#" aria-label="Resume PDF placeholder">
+            <span>Resume PDF</span>
+            <strong>Placeholder link</strong>
+          </a>
+          <a class="document-card" href="#" aria-label="CV PDF placeholder">
+            <span>Academic CV PDF</span>
+            <strong>Placeholder link</strong>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Connect</h2>
+        </div>
+        <div class="contact-links">
+          <a class="contact-card" href="mailto:quadedbutler@gmail.com">
+            <span>Email</span>
+            <strong>quadedbutler@gmail.com</strong>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/quadebutler">
+            <span>LinkedIn</span>
+            <strong>linkedin.com/in/quadebutler</strong>
+          </a>
+          <a class="contact-card" href="https://github.com/quade-butler" aria-label="GitHub">
+            <span>GitHub</span>
+            <strong>github.com/quade-butler</strong>
+          </a>
+          <a
+            class="contact-card"
+            href="https://scholar.google.com/citations?user=VvIiDB4AAAAJ&amp;hl=en"
+          >
+            <span>Google Scholar</span>
+            <strong>Publication profile</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Quade Butler. Built with GitHub Pages.</p>
+    </footer>
+
     <script src="scripts/main.js"></script>
   </body>
 </html>
