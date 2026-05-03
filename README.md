@@ -4,9 +4,9 @@ This repository contains the source for my personal GitHub Pages website.
 
 Site: [https://quade-butler.github.io/](https://quade-butler.github.io/)
 
-The site highlights my work in applied science, state estimation, robotics, data
-science, signal processing, and dynamic systems. It includes sections for
-education, experience, selected research, publications, Resume/CV links, and
+The site highlights my work in estimation, machine learning, signal processing,
+sensor data systems, and dynamic engineering applications. It includes sections
+for education, experience, selected research, publications, CV links, and
 contact information.
 
 ## Repository Structure
