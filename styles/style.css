@@ -338,6 +338,7 @@ main {
 .feature,
 .publication {
   display: grid;
+  align-content: start;
   gap: 12px;
   padding: 22px;
 }

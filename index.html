@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Quade Butler is a PhD engineer focused on estimation, machine learning, signal processing, and sensor data systems for dynamic engineering applications."
+      content="Quade Butler is a research engineer focused on state estimation, sensor fusion, robust filtering, and navigation-relevant dynamic systems."
     />
-    <title>Quade Butler | PhD Engineer in Estimation, Machine Learning, and Sensor Data Systems</title>
+    <title>Quade Butler | Research Engineer in State Estimation and Sensor Fusion</title>
 
     <link href="styles/style.css" rel="stylesheet" />
     <link href="styles/font.css" rel="stylesheet" />
@@ -36,12 +36,12 @@
     <main id="top">
       <section class="hero">
         <div class="hero-content">
-          <p class="eyebrow">PhD Engineer | Estimation, Machine Learning, Sensor Data Systems</p>
+          <p class="eyebrow">Research Engineer | State Estimation, Sensor Fusion, Robotics</p>
           <h1>Quade Butler</h1>
           <p class="hero-summary">
-            I develop algorithms and analysis pipelines that turn noisy sensor
-            and engineering data into reliable estimates, diagnostics, and
-            decisions.
+            I develop recursive estimation, sensor fusion, and numerical
+            methods for noisy dynamic systems, with applications in tracking,
+            fault detection, robotics, and industrial condition monitoring.
           </p>
           <div class="hero-actions" aria-label="Profile links">
             <a class="button primary" href="#resume">Resume/CV</a>
@@ -62,18 +62,20 @@
         <div class="section-body">
           <p>
             My PhD research at McMaster University with the
-            <a href="https://ice.gadsden.xyz/">ICE Lab</a> sits between applied
-            machine learning, signal processing, controls, numerical methods,
-            and experimental validation. It has produced nonlinear filtering
-            algorithms, MATLAB and Python analysis pipelines, and validation
-            workflows for sensor-driven dynamic systems.
+            <a href="https://ice.gadsden.xyz/">ICE Lab</a> sits between
+            nonlinear state estimation, sensor fusion, robust filtering,
+            numerical methods, and experimental validation. It has produced
+            recursive filtering algorithms, MATLAB and Python analysis
+            pipelines, and validation workflows for sensor-driven dynamic
+            systems.
           </p>
           <p>
             My mechanical engineering background gives me a practical foundation
             in physical systems, controls, manufacturing, and experimental
-            validation. I focus on building reliable methods for complex
-            physical and industrial systems, from state estimation and sensor
-            fusion to condition monitoring and predictive maintenance.
+            validation. I focus on building reliable estimation and diagnostic
+            methods for complex physical and industrial systems, including
+            navigation-relevant tracking, fault detection, condition monitoring,
+            and predictive maintenance.
           </p>
         </div>
       </section>
@@ -119,9 +121,37 @@
       <section class="section" id="experience">
         <div class="section-heading">
           <p class="eyebrow">Experience</p>
-          <h2>Research, data pipelines, controls, and system validation.</h2>
+          <h2>State estimation, sensor fusion, filtering, and system validation.</h2>
         </div>
         <div class="cards">
+          <article class="card">
+            <h3>Research Assistant</h3>
+            <p class="meta">
+              McMaster University |
+              <a href="https://ice.gadsden.xyz/">ICE Lab</a> | January 2026-Present
+            </p>
+            <ul>
+              <li>
+                Prototyped recursive estimation algorithms in Python for
+                nonlinear sensor data, evaluating accuracy, runtime, and
+                robustness under measurement noise, outliers, and model
+                uncertainty.
+              </li>
+              <li>
+                Designed filters to reject sensor outliers by dynamically
+                saturating measurement residuals, improving robustness by 12%.
+              </li>
+              <li>
+                Reduced function evaluations by 60% while preserving accuracy
+                for high-dimensional systems through improved numerical
+                integration point coverage.
+              </li>
+              <li>
+                Profiled filter performance to identify execution bottlenecks
+                and improve processing time and numerical stability.
+              </li>
+            </ul>
+          </article>
           <article class="card">
             <h3>PhD Researcher</h3>
             <p class="meta">
@@ -130,17 +160,50 @@
             </p>
             <ul>
               <li>
-                Developed nonlinear Gaussian filtering methods based on double
-                exponential cubature for Bayesian state estimation and sensor
-                fusion.
+                Developed algorithms for Kalman filtering, nonlinear state
+                estimation, and multiple-model fault detection for
+                magnetorheological damper devices.
               </li>
               <li>
-                Built MATLAB simulation and benchmarking frameworks for UKF,
-                CKF, Gauss-Hermite, DECKF, and robust filtering comparisons.
+                Constructed cubature Kalman filters by exploiting properties of
+                the trapezoid rule, reducing computational cost 100x over
+                vanilla Monte Carlo and Gauss-Hermite integration methods for
+                high-dimensional functions.
               </li>
               <li>
-                Evaluated estimator performance using RMSE, NEES, NIS, Monte
-                Carlo simulation, and statistical consistency testing.
+                Applied nonlinear filtering to radar tracking in MATLAB,
+                reducing error by 50% versus UKF/CKF baselines and achieving
+                fewer lost target events.
+              </li>
+              <li>
+                Architected an interacting multiple model sensor fusion
+                estimator for force estimation and fault detection/classification
+                of an experimental MR damper, achieving 99.2% accuracy and
+                99.1% macro F1 for induced fault regimes.
+              </li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Research Collaboration with Ford Motor Company</h3>
+            <p class="meta">Livonia, MI | May 2020-August 2024</p>
+            <ul>
+              <li>
+                Led the design and development of a condition monitoring system
+                for machine tools using built-in sensors, avoiding the need for
+                external sensor systems and third-party monitoring solutions.
+              </li>
+              <li>
+                Designed simulated motion trajectories in MATLAB and deployed
+                them on production machines to generate repeatable sensor
+                datasets for condition monitoring validation.
+              </li>
+              <li>
+                Built a Python data processing and analysis pipeline to
+                transform, clean, and extract features from noisy XML datasets.
+              </li>
+              <li>
+                Transformed raw sensor data into machine health indicators for
+                early detection of gradual wear failures.
               </li>
             </ul>
           </article>
@@ -357,6 +420,10 @@
           <h2>Downloadable materials.</h2>
         </div>
         <div class="document-links">
+          <a class="document-card" href="./data/Quade_Butler_Resume.pdf">
+            <span>Resume PDF</span>
+            <strong>Download Resume</strong>
+          </a>
           <a class="document-card" href="./data/Quade_Butler_CV.pdf">
             <span>CV PDF</span>
             <strong>Download CV</strong>
